@@ -1,0 +1,32 @@
+{
+	"name": "@hwycdfatm/is-odd",
+	"version": "0.0.1",
+	"description": "Returns true if a number is odd, false if even, null if not implemented yet (troll version - updates coming soon!)",
+	"main": "index.js",
+	"types": "index.d.ts",
+	"scripts": {
+		"test": "node test.js"
+	},
+	"keywords": [
+		"is-odd",
+		"odd",
+		"number",
+		"is",
+		"even",
+		"math",
+		"utility"
+	],
+	"license": "MIT",
+	"author": "hwycdfatm <mai.tritoan7102@gmail.com>",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/hwycdfatm/is-odd.git"
+	},
+	"bugs": {
+		"url": "https://github.com/hwycdfatm/is-odd/issues"
+	},
+	"homepage": "https://github.com/hwycdfatm/is-odd#readme",
+	"engines": {
+		"node": ">=0.10.0"
+	}
+}

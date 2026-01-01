@@ -1,0 +1,32 @@
+# Test files
+test.js
+*.test.js
+*.spec.js
+
+# Configuration files
+.editorconfig
+.eslintrc*
+.prettierrc*
+
+# Git files
+.git/
+.gitignore
+.gitattributes
+
+# CI/CD
+.github/
+.travis.yml
+.gitlab-ci.yml
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Documentation
+docs/
+examples/
+
+# Misc
+.DS_Store
