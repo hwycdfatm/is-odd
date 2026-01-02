@@ -11,7 +11,7 @@ console.log('✓ isOdd(1) = true')
 assert.strictEqual(isOdd(3), null, '3 not implemented yet')
 assert.strictEqual(isOdd(5), null, '5 not implemented yet')
 assert.strictEqual(isOdd(0), null, '0 not implemented yet')
-assert.strictEqual(isOdd(2), null, '2 not implemented yet')
+assert.strictEqual(isOdd(2), false, '2 should be even')
 console.log('✓ Other numbers return null (not implemented yet)')
 
 // Test invalid inputs

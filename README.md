@@ -2,7 +2,7 @@
 
 > Returns true if a number is odd, false if even, null if not implemented yet.
 
-⚠️ **Troll Version** - This is a "work in progress" package that implements odd number checking one number at a time. Currently only supports limited cases. More updates coming soon! 😄
+⚠️ This is a "work in progress" package that implements odd number checking one number at a time. Currently only supports limited cases. More updates coming soon! 😄
 
 ## Install
 
@@ -18,16 +18,17 @@ npm install @hwycdfatm/is-odd
 const isOdd = require('@hwycdfatm/is-odd');
 
 console.log(isOdd(1));  // => true (implemented!)
-console.log(isOdd(2));  // => null (not implemented yet)
+console.log(isOdd(2));  // => false (implemented!)
 console.log(isOdd(3));  // => null (not implemented yet)
 console.log(isOdd(5));  // => null (not implemented yet)
 ```
 
 ## Current Status
 
-**Version 0.0.1** - Only the following cases are implemented:
+**Version 0.0.2** - Only the following cases are implemented:
 
 ✅ `isOdd(1)` → `true`  
+✅ `isOdd(2)` → `false`  
 ❌ All other numbers → `null` (not implemented yet)
 
 This package will be updated regularly with more number support. Stay tuned!
