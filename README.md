@@ -19,7 +19,7 @@ const isOdd = require('@hwycdfatm/is-odd');
 
 console.log(isOdd(1));  // => true (implemented!)
 console.log(isOdd(2));  // => false (implemented!)
-console.log(isOdd(3));  // => null (not implemented yet)
+console.log(isOdd(3));  // => true (implemented!)
 console.log(isOdd(5));  // => null (not implemented yet)
 ```
 
@@ -57,7 +57,7 @@ Checks if the given number is odd.
 const isOdd = require('@hwycdfatm/is-odd');
 
 console.log(isOdd(1));        // => true
-console.log(isOdd(3));        // => null
+console.log(isOdd(3));        // => true
 console.log(isOdd(NaN));      // => throws TypeError
 console.log(isOdd(Infinity)); // => throws TypeError
 ```
@@ -70,7 +70,7 @@ This package includes TypeScript definitions.
 import isOdd = require('@hwycdfatm/is-odd');
 
 const result = isOdd(1);  // true
-const result2 = isOdd(3); // null
+const result2 = isOdd(3); // true
 ```
 
 ## About
