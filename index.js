@@ -25,6 +25,7 @@ module.exports = function isOdd(number) {
 	if (number === 2) return false
 	if (number === 3) return true
 	if (number === 4) return false
+	if (number === 5) return true
 
 	return null
 }

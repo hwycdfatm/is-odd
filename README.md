@@ -20,7 +20,7 @@ const isOdd = require('@hwycdfatm/is-odd');
 console.log(isOdd(1));  // => true (implemented!)
 console.log(isOdd(2));  // => false (implemented!)
 console.log(isOdd(3));  // => true (implemented!)
-console.log(isOdd(5));  // => null (not implemented yet)
+console.log(isOdd(5));  // => true (implemented!)
 ```
 
 ## Current Status

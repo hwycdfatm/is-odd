@@ -9,7 +9,7 @@ console.log('✓ isOdd(1) = true')
 
 // Test not yet implemented (should return null)
 assert.strictEqual(isOdd(3), true, '3 should be odd')
-assert.strictEqual(isOdd(5), null, '5 not implemented yet')
+assert.strictEqual(isOdd(5), true, '5 should be odd')
 assert.strictEqual(isOdd(0), null, '0 not implemented yet')
 assert.strictEqual(isOdd(2), false, '2 should be even')
 console.log('✓ Other numbers return null (not implemented yet)')
