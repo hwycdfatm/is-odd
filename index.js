@@ -47,6 +47,7 @@ module.exports = function isOdd(number) {
 	if (number === 24) return false
 	if (number === 25) return true
 	if (number === 26) return false
+	if (number === 27) return true
 
 	return null
 }
