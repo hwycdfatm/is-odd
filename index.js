@@ -50,6 +50,7 @@ module.exports = function isOdd(number) {
 	if (number === 27) return true
 	if (number === 28) return false
 	if (number === 29) return true
+	if (number === 30) return false
 
 	return null
 }
