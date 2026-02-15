@@ -1,6 +1,6 @@
 {
 	"name": "@hwycdfatm/is-odd",
-	"version": "0.0.45",
+	"version": "0.0.46",
 	"description": "Returns true if a number is odd, false if even, null if not implemented yet (troll version - updates coming soon!)",
 	"main": "index.js",
 	"types": "index.d.ts",
